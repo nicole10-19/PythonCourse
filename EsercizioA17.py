@@ -24,7 +24,7 @@ print(d)
 print(d['zero'])
 print(d)
 
-#Codnitional expressions --> expressions that use conditionals to select one or two values 
+#Conditional expressions --> expressions that use conditionals to select one or two values 
 
 def factorial(n):
     if n == 0:
@@ -52,4 +52,5 @@ def factorial(n):
 def capitalize_title(title):
     t = [word.capitalize() for word in title.split()]
     return ' '.join(t)
+
 
